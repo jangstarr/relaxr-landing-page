@@ -123,6 +123,7 @@ footer .img2 {
 .getit {
   font-size: 14px;
   font-weight: 900;
+  color: #26337b;
   border-radius: 5px;
   background-color: #f9e42e;
   width: 20%;
@@ -143,7 +144,7 @@ footer .img2 {
 .bentitle {
   font-size: 20px;
   font-weight: 900;
-  color: #033048;
+  color: #26337b;
   padding-left: 70px;
 }
 
@@ -151,6 +152,7 @@ footer .img2 {
   width: 500px;
   font-size: 13px;
   font-weight: Light;
+  color: #9e9e9eeb;
   padding-left: 70px;
   text-overflow: clip;
 }
