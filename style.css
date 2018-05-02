@@ -1,0 +1,222 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+     background: #0000004d;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 60%;
+  margin: auto;
+  background-color: black;
+}
+
+.boat_bg {
+  height: 400px;
+  background: url(../images/header_bg.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+
+header {
+  font-size: 24px;
+  font-weight: 900;
+  padding-top: 20px;
+  padding-left: 70px;
+  color: white;
+}
+
+footer {
+  height: 200px;
+  background-color: black;
+  text-align: center;
+}
+
+footer h1 {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 900;
+  position: relative;
+   top: 20%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+}
+
+footer p {
+  font-size: 9px;
+  font-weight: semibold;
+  color: white;
+}
+
+footer img {
+  width: 20px;
+  height: auto;
+  margin: 10px;
+}
+
+footer .img2 {
+  height: 20px;
+  width: auto;
+}
+
+
+.headline {
+  font-size: 24px;
+  font-weight: semibold;
+  color: white;
+  text-align: center;
+}
+
+.getit {
+  font-size: 14px;
+  font-weight: 900;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  width: 20%;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits {
+  background-color: #f0efef;
+  height: 300px;
+  padding-top: 50px;
+}
+
+.bentitle {
+  font-size: 20px;
+  font-weight: 900;
+  color: #033048;
+  padding-left: 70px;
+}
+
+.bentext {
+  width: 500px;
+  font-size: 13px;
+  font-weight: Light;
+  padding-left: 70px;
+  text-overflow: clip;
+}
+
+.list {
+  padding-left: 100px;
+  list-style-type: disc;
+  font-size: 13px;
+  font-weight: Light;
+  width: 470px;
+  text-overflow: clip;
+}
+
+.footerwrapper {
+  display: inline-block;
+}
+
+.waves_bg {
+  height: 250px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+.testimonial_box {
+  max-width: 400px;
+  position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+
+.testimonial_box .text {
+  font-size: 18px;
+  font-weight: 100;
+  font-style: italic;
+  color: white;
+}
+
+.testimonial_box .name {
+  font-size: 18px;
+  color: white;
+}
+
+.signup {
+  background-color: #f9e42e;
+  height: 75px;
+}
+.signup .button {
+  font-size: 12px;
+  font-weight: 900;
+  border-radius: 5px;
+  background-color: #033048;
+  color: white;
+  width: 25%;
+  height: 30px;
+  position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
