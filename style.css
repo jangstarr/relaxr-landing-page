@@ -151,8 +151,7 @@ footer .img2 {
 .bentext {
   width: 500px;
   font-size: 13px;
-  font-weight: Light;
-  color: #9e9e9eeb;
+  font-weight: 100;
   padding-left: 70px;
   text-overflow: clip;
 }
@@ -161,7 +160,7 @@ footer .img2 {
   padding-left: 100px;
   list-style-type: disc;
   font-size: 13px;
-  font-weight: Light;
+  font-weight: 100;
   width: 470px;
   text-overflow: clip;
 }
