@@ -66,7 +66,7 @@ body {
 
 .boat_bg {
   height: 400px;
-  background: url(../images/header_bg.jpg) no-repeat center top;
+  background: url(header_bg.jpg) no-repeat center top;
   background-size: cover;
 }
 
@@ -170,7 +170,7 @@ footer .img2 {
 
 .waves_bg {
   height: 250px;
-  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background: url(testimonial_bg.jpg) no-repeat center top;
   background-size: cover;
 }
 
